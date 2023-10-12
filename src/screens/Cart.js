@@ -22,7 +22,7 @@ function Cart() {
         let userEmail = localStorage.getItem("userEmail");
         console.log('User Email:', userEmail);
         try {
-            const response = await fetch("https://backend-food-delivery-app-mern.vercel.app/api/orderData", {
+            const response = await fetch("https://bhushan-ir2j.onrender.com/api/orderData", {
                 method: "POST",
                 headers: {
                   'Content-Type': 'application/json'
