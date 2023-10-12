@@ -8,7 +8,7 @@ function Login() {
 
   const handelsubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://backend-food-delivery-app-mern.vercel.app/api/Loginuser", {
+    const response = await fetch("https://bhushan-ir2j.onrender.com/api/Loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
