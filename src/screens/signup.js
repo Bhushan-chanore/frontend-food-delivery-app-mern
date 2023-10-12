@@ -8,7 +8,7 @@ function Signup() {
 
     const handelsubmit = async(e)=>{
         e.preventDefault();
-        const response = await fetch("https://backend-food-delivery-app-mern.vercel.app/api/createuser",{
+        const response = await fetch("https://bhushan-ir2j.onrender.com/api/createuser",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
